@@ -1,0 +1,19 @@
+.App__Component{
+    margin:60px auto 0 auto;
+    width: 600px;
+}
+
+h1{ 
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+}
+
+
+@media screen and (max-width: 640px) {
+    .App__Component{
+
+        width: 450px;
+    }
+  }
