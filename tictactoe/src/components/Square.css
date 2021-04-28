@@ -1,0 +1,17 @@
+
+
+.squareButton{
+    height: 80px;
+    width: 80px;
+    background-color: cornflowerblue;
+    border-radius: 10%;
+
+
+}
+
+.squareButtonhighLight{
+    height: 80px;
+    width: 80px;
+    background-color: greenyellow;
+    border-radius: 10%;
+}
