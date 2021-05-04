@@ -1,0 +1,23 @@
+.tabbutton{
+    border: 1px solid #ccc;
+    width: auto;
+    padding: 1rem;
+    margin-top: 0.25rem;
+}
+.tabbutton:hover{
+    color: #000;
+    background-color: white;
+}
+
+.tabitem{
+    padding: 1rem;
+    text-align: left;
+}
+
+.active{
+    color: #000;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
