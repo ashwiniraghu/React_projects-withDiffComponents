@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+}
+
+.App {
+  min-width: 450px;
+  min-height: 650px;
+  padding: 10px;
+  border: 1px solid black;
+  background: #264057;
+  box-shadow: 1px 2px 1px 2px #5f98cd;
+  border-radius: 5%;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    min-width: 100vw;
+    min-height: 650px;
+  }
+  .valueContainer {
+    min-width: 100px;
+  }
+}
+
+.header {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.textConatiner {
+  text-align: center;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  min-width: 350px;
+}
+
+.textAdd {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  min-width: 350px;
+}
+
+.btnAdd {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 10%;
+  font-size: 0.85rem;
+
+  min-width: 50px;
+  text-align: center;
+}
+
+.btnAdd:hover {
+  background: #5f98cd;
+  color: white;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.valueContainer {
+  font-size: 0.85rem;
+  width: 280px;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.25rem;
+}
+.valueContainer:hover {
+  background: #5f98cd;
+  color: white;
+}
+.completed {
+  cursor: pointer;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+}
+.underline {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.edit {
+  cursor: pointer;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.delete {
+  cursor: pointer;
+  padding: 0.25rem;
+}
+.completed:hover,
+.edit:hover,
+.delete:hover {
+  background: #5f98cd;
+  color: white;
+}
